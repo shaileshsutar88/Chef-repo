@@ -1,0 +1,20 @@
+#
+# Cookbook Name:: apache
+# Recipe:: default
+#
+# Copyright 2014, YOUR_COMPANY_NAME
+#
+# All rights reserved - Do Not Redistribute
+#
+# Author : Shailesh Sutar
+# Company : Neova Solutions Pvt Ltd.
+
+package 'apache' do
+	action :install
+end
+
+service 'apache' do
+	supports [:status]
+	action :start , :enable 
+end
+
