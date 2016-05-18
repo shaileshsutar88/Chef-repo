@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: neo-users
+# Cookbook Name:: Users
 # Recipe:: default
 #
-# Copyright 2014, Neova Solutions Pvt. Ltd.
+# Copyright 2014, 
 #
 # All rights reserved - Do Not Redistribute
 #
