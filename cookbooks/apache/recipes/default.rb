@@ -7,7 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 # Author : Shailesh Sutar
-# Company : Neova Solutions Pvt Ltd.
 
 package "apache2" do
 	action :install
